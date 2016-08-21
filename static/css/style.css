@@ -2,3 +2,17 @@ body {
 	font-family: Lato;
 	/*background: #65beb4;*/
 }
+
+.slide {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#home {
+    background: #65beb4;
+}
+
+#about {
+    background-color: 
+}
