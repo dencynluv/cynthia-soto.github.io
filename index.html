@@ -15,7 +15,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-fixed-top">
 	  <div class="container">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -31,8 +31,9 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">	      
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="#home">Home</a></li>
+	        <li><a href="#work">Work</a></li>
+	        <li><a href="#skills">Skills</a></li>
 	        <li><a href="#about">About</a></li>
-	        <li><a href="#projects">Projects</a></li>
 	        <li><a href="#contact">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -42,32 +43,14 @@
 
 	<div class="slide" id="home">
 		<div class="container header">
+			<img src="static/images/headshot.jpg" class="img-rounded" id="headshot">
 			<h4>Hello, my name is Cynthia Soto and I am a </h4>
 			<h1>Full Stack Software Engineer</h1>
 		</div><!-- /.container -->
 	</div><!-- end div -->	
 
 
-	<div class="slide" id="about">
-		<div class="container">
-			<div class="row about-wrapper">
-				<div class="col-md-3" id="about-div1">
-					<img src="static/images/headshot.jpg" id="headshot">
-				</div>
-				<div class="col-md-9" id="about-div2">
-					<p>I've constantly felt a genuine desire to help others and continuously look for ways to do things better. I've always been curious about the way things work and enjoy the process of taking things apart and putting them back together. I began my coding journey and exploration on my own during my free time.</p>
-
-					<p>I then attended the Software Engineering Fellowship at Hackbright Academy where I immersed myself in an intensive 3 month learning experience. There, I developed the technical skills needed for modern web development and built a foundation on computer science fundamentals in an agile environment. I put my skills to practice by individually building a web application in 4 weeks from the ground up.</p>
-
-					<p>I aspire to continue expanding my knowledge and to apply my technical skills as well as leadership/soft skills as a software engineer and hope to motivate others looking to join the tech industry.
-					</p>
-				</div>
-			</div><!-- end row -->
-		</div><!-- /.container -->
-	</div><!-- end div -->	
-
-
-	<div class="slide" id="projects">
+	<div class="slide" id="work">
 		<div class="container">
 			<div class="row project-wrapper"> 
 				<div class="col-md-12 thumbnail" id="wourds-title">
@@ -97,7 +80,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
 
 			<div class="row code-skill-wrapper">
-				<div class="col-md-3 code-skill">
+				<div class="col-sm-3 col-xs-6 code-skill">
 					<hr>
 					<h4 class="bold-font">Front End Technologies</h4>
 					<hr>
@@ -108,17 +91,21 @@
 					<h4 class="italic">Bootstap</h4>
 				</div>
 
-				<div class="col-md-3 code-skill">
+				<div class="col-sm-3 col-xs-6 code-skill">
 					<hr>
 					<h4 class="bold-font">Back End Technologies</h4>
 					<hr>
 					<h4 class="italic">Python</h4>
 					<h4 class="italic">Flask</h4>
 					<h4 class="italic">SQL</h4>
-					<h4 class="italic">PostgreSQL & SQLAlchemy</h4>
+					<h4 class="italic">PostgreSQL</h4>
+					<h4 class="italic">SQLAlchemy</h4>
 				</div>
 
-				<div class="col-md-3 code-skill">
+				<!-- Extra clearfix for only the required viewport -->
+				 <div class="clearfix visible-xs-block"></div>
+
+				<div class="col-sm-3 col-xs-6 code-skill">
 					<hr>
 					<h4 class="bold-font">Industry Tools & Practices</h4>
 					<hr>
@@ -127,7 +114,7 @@
 					<h4 class="italic">Command-Line Interface</h4>
 				</div>
 
-				<div class="col-md-3 code-skill">
+				<div class="col-sm-3 col-xs-6 code-skill">
 					<hr>
 					<h4 class="bold-font">Computer Science Fundamentals</h4>
 					<hr>
@@ -138,6 +125,26 @@
 			</div><!-- end row -->
 		</div><!-- /.container -->
 	</div><!-- end div -->	
+
+
+	<div class="slide" id="about">
+		<div class="container">
+			<div class="row about-wrapper">
+				<div class="col-md-3" id="about-div1">
+					<!-- <img src="static/images/headshot.jpg" class="img-rounded" id="headshot"> -->
+				</div>
+				<div class="col-md-9" id="about-div2">
+					<p>I've constantly felt a genuine desire to help others and continuously look for ways to do things better. I've always been curious about the way things work and enjoy the process of taking things apart and putting them back together. I began my coding journey and exploration on my own during my free time.</p>
+
+					<p>I then attended the Software Engineering Fellowship at Hackbright Academy where I immersed myself in an intensive 3 month learning experience. There, I developed the technical skills needed for modern web development and built a foundation on computer science fundamentals in an agile environment. I put my skills to practice by individually building a web application in 4 weeks from the ground up.</p>
+
+					<p>I aspire to continue expanding my knowledge and to apply my technical skills as well as leadership/soft skills as a software engineer and hope to motivate others looking to join the tech industry.
+					</p>
+				</div>
+			</div><!-- end row -->
+		</div><!-- /.container -->
+	</div><!-- end div -->	
+
 
 	<div class="slide" id="contact">
 		<div class="container">
