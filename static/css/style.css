@@ -1,12 +1,18 @@
 body {
-	font-family: Lato;
+	font-family: Rubik;
+    font-weight: 400;
+    color: #737476;
+    font-size: 16px;
+    letter-spacing: 1px;
     padding-top: 70px;
 	/*background: #65beb4;*/
 }
 
 p {
-    font-size: 18px;
+    padding-top: 15px;
 }
+
+/******************************************/
 
 .navbar {
     background-color: #F48988;
@@ -15,59 +21,136 @@ p {
     border: none;
 }
 
-.nav>li>a {
+.navbar-toggle {
+    padding: 10px;
+    margin-top: 23px;
+    margin-right: 18px;
+    margin-bottom: 23px;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-collapse.in {
+    background-color: #c7c7c7;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
     padding: 30px 40px;
     color: #FFFFFF;
+    /*letter-spacing: 1px;*/
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #784242;
+}
+
+/*.navbar-default .navbar-nav>li>a:hover {
+    background-color: #c7c7c7;
+    color: #784242;
+}*/
+
+/*.navbar-default .navbar-nav>li>a {
+    background-color: #c7c7c7;
+}*/
+
+.navbar-default .nav>li>a {
+    padding: 30px 40px;
+    color: #FFFFFF;
+    /*font-weight: 500; waiting till end to decide if i want this to be bold or not.*/
     font-size: 16px;
     letter-spacing: 1px;
 }
 
+/*.active>a {
+    color: #784242;
+}*/
+
+.navbar-default .nav>li>a:hover {
+    background-color: transparent; 
+    color: #784242;
+}
+
+/******************************************/
+
 .slide {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
 }
 
-#home {
-    height: 600px;
+.wrapper {
+    margin: 40px 0px 0px;
 }
 
-.header {
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+/******************************************/
+/*#home {
+    height: 600px;
+}*/
+
+/*.header {
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-#work {
-    background-color: #F8F8F8;
-}
-
-#skills {
-    height: 600px;
-}
-
-#about {
-    background-color: #F8F8F8;
-}
+}*/
 
 #headshot {
+    height: 200px;
+    margin-bottom: 40px;
     /*box-shadow: 5px 5px 5px #888888;*/
 }
+
+/*margin: 40px 0px; for home blurb*/
 
 .img-rounded {
     border-radius: 100%;
 }
 
-#about-div2 {
-    padding-top: 30px;
+
+/******************************************/
+
+#work {
+    background-color: #F8F8F8;
 }
 
-#wourds-title {
-    border: none;
+
+/******************************************/
+
+#skills {
+    height: 600px;
+}
+
+
+/******************************************/
+
+#about {
+    background-color: #F8F8F8;
+}
+
+#about-me {
+    line-height: 50px;
 }
 
 
 
 
+
+
+/******************************************/
+/******************************************/
 
 /*.navbar-default .navbar-nav>li>a:hover {
     color: #777;

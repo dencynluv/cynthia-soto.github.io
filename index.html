@@ -4,7 +4,7 @@
 	<title>Cynthia Soto</title>
 
 	<!-- Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
 	<!-- Bootstrap cdn -->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Font Awesome cdn -->
@@ -15,7 +15,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -42,44 +42,46 @@
 
 
 	<div class="slide" id="home">
-		<div class="container header">
-			<img src="static/images/headshot.jpg" class="img-rounded" id="headshot">
-			<h4>Hello, my name is Cynthia Soto and I am a </h4>
-			<h1>Full Stack Software Engineer</h1>
+		<div class="container">
+
+			<div class="row wrapper">
+				<img src="static/images/headshot.jpg" class="img-rounded" id="headshot">
+				<p class="title">Hi, I'm Cynthia Soto.</p>
+				<p>A Hackbright Alumni and Junior Software Engineer.</p>
+			</div><!-- end row -->
+
 		</div><!-- /.container -->
 	</div><!-- end div -->	
 
 
 	<div class="slide" id="work">
 		<div class="container">
-			<div class="row project-wrapper"> 
-				<div class="col-md-12 thumbnail" id="wourds-title">
-					<hr>
-					<br>
-					<a href="https://github.com/dencynluv/hackbright-project" id="wourds-link">
-						<img src="static/images/wourds_header.png">
-					</a>
-					<p id="wourds-subtitle">Hackbright Individual Project</p>
-					<hr>
-				</div>
+			<p class="title">WORK</p>
+
+			<div class="row wrapper"> 
 				<div class="col-md-12 thumbnail" id="wourds-landing-img">
-					<img src="static/images/landing_page.png">
-				</div>
-				<div class="col-md-12" id="wourds-description">
-					<p>WOURDS is a shared chat notebook for you to share with someone you care. Leave enthusiastic notes, messages, quotes or any special note you'd like for one another. Apply a "heart" to your favorite note and send it to your favorites to easily find later. With the integration of Twilio's API you are instantly notified via text message when a new note is received.</p>
-					<hr>
+					<a href="https://github.com/dencynluv/hackbright-project">
+						<img src="static/images/landing_page.png">
+					</a>
 				</div>
 			</div><!-- end row -->
+
+			<div class="row wrapper">	
+				<div class="col-md-12" id="wourds-description">  <!-- Might delete this chunk of info & just link to github -->
+					<p>WOURDS is a shared chat notebook for you to share with someone you care. Leave enthusiastic notes, messages, quotes or any special note you'd like for one another. Apply a "heart" to your favorite note and send it to your favorites to easily find later. With the integration of Twilio's API you are instantly notified via text message when a new note is received.</p>
+				</div>
+			</div><!-- end row -->
+
 		</div><!-- /.container -->
 	</div><!-- end div -->	
 
 
 	<div class="slide" id="skills">
 		<div class="container">
-			<h4>SKILLS</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+			<p class="title">SKILLS</p>
+			<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
 
-			<div class="row code-skill-wrapper">
+			<div class="row wrapper">
 				<div class="col-sm-3 col-xs-6 code-skill">
 					<hr>
 					<h4 class="bold-font">Front End Technologies</h4>
@@ -129,11 +131,10 @@
 
 	<div class="slide" id="about">
 		<div class="container">
-			<div class="row about-wrapper">
-				<div class="col-md-3" id="about-div1">
-					<!-- <img src="static/images/headshot.jpg" class="img-rounded" id="headshot"> -->
-				</div>
-				<div class="col-md-9" id="about-div2">
+			<p class="title">ABOUT ME</p>
+
+			<div class="row wrapper">
+				<div class="col-md-12" id="about-me">
 					<p>I've constantly felt a genuine desire to help others and continuously look for ways to do things better. I've always been curious about the way things work and enjoy the process of taking things apart and putting them back together. I began my coding journey and exploration on my own during my free time.</p>
 
 					<p>I then attended the Software Engineering Fellowship at Hackbright Academy where I immersed myself in an intensive 3 month learning experience. There, I developed the technical skills needed for modern web development and built a foundation on computer science fundamentals in an agile environment. I put my skills to practice by individually building a web application in 4 weeks from the ground up.</p>
@@ -142,18 +143,24 @@
 					</p>
 				</div>
 			</div><!-- end row -->
+
 		</div><!-- /.container -->
 	</div><!-- end div -->	
 
 
 	<div class="slide" id="contact">
 		<div class="container">
-			<h4>CONTACT ME</h4>
-			<p>Have a project I might be interested in?</p>
-			<hr>
-			<p>Shoot me an email at sotocyn@gmail.com</p>
-			<br>
-			<div class="row">
+			<p class="title">CONTACT</p>
+
+			<div class="row wrapper">
+				<div class="col-md-12">
+					<p>Have a project I might be interested in?</p>
+					<hr>
+					<p>Shoot me an email at sotocyn@gmail.com</p>
+				</div>
+			</div><!-- end row -->
+
+			<div class="row wrapper">
 				<div class="col-md-3">
 					<a href="mailto:sotocyn@gmail.com"><i class="fa fa-envelope-o fa-4x"></i></a>
 				</div>
@@ -167,6 +174,7 @@
 					<a href="http://www.twitter.com/dencynluv/"><i class="fa fa-twitter fa-4x"></i></a>
 				</div>
 			</div><!-- end row -->	
+
 		</div><!-- /.container -->
 	</div><!-- end div -->
 		
