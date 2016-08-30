@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
-  $('.html').css('width', '50%');
-  $('.css').css('width', '50%');
-  $('.jquery').css('width', '50%');
-  $('.javascript').css('width', '50%');
+  $('.front-end').css('width', '70%');
+  $('.back-end').css('width', '60%');
+  $('.cs-fund').css('width', '50%');
+  $('.tools').css('width', '80%');
 });

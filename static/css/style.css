@@ -86,8 +86,12 @@ body {
     text-align: center;
 }
 
+.row {
+    margin: 0px;
+}
+
 .wrapper {
-    margin: 40px 0px 0px;
+    margin-top: 40px;
 }
 
 .title {
@@ -130,22 +134,10 @@ body {
 /******************************************/
 
 
-/*.code-skill {
-    float: left;
-    clear: right;
-    width: 100%;
-    margin: 20px 0px 30px 30px;
-}*/
-
-/*.code-skill-2 {
-    margin-top: 40px;
-}*/
-
 .skills-name {
     float: left;
     clear: right;
     width: 100%;
-/*    margin: 5px;*/
     text-align: left;
     font-weight: 700;
     line-height: 19px;
@@ -162,24 +154,24 @@ body {
     float: left;
     clear: right;
     height: 38px;
-    width: 80%;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 40px 0px;
 }
 
 .progress {
     background:#d3e5e6; 
     height:38px;
-  width: 460px;
+    width: 460px;
+    margin: 0px;
 }
 
 .progress-bar {
-  background: #bddcde;
+    background: #bddcde;
     height:100%;
     width:0%;
 }
 
 
-.adobe, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, .ui, .ux, .rwd, .mobile, .rapidproto {
+.front-end, .back-end, .cs-fund, .tools {
     -webkit-transition: width 4.50s ease !important;
     -moz-transition: width 4.50s ease !important;
     -o-transition: width 4.50s ease !important;
