@@ -136,6 +136,14 @@ hr {
     background-color: #F8F8F8;
 }
 
+#wourds-landing-img {
+    margin-bottom: 0px;
+}
+
+#wourds-description {
+    line-height: 50px;
+}
+
 
 /******************************************/
 
@@ -194,9 +202,6 @@ hr {
 #about-me {
     line-height: 50px;
 }
-
-
-
 
 
 
