@@ -8,9 +8,9 @@ body {
 	/*background: #65beb4;*/
 }
 
-p {
+/*p {
     padding-top: 15px;
-}
+}*/
 
 /******************************************/
 
@@ -129,9 +129,62 @@ p {
 
 /******************************************/
 
-#skills {
-    height: 600px;
+
+/*.code-skill {
+    float: left;
+    clear: right;
+    width: 100%;
+    margin: 20px 0px 30px 30px;
+}*/
+
+/*.code-skill-2 {
+    margin-top: 40px;
+}*/
+
+.skills-name {
+    float: left;
+    clear: right;
+    width: 100%;
+/*    margin: 5px;*/
+    text-align: left;
+    font-weight: 700;
+    line-height: 19px;
 }
+
+.skills-subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.skills-bar {
+    float: left;
+    clear: right;
+    height: 38px;
+    width: 80%;
+    margin: 10px 0px 0px 0px;
+}
+
+.progress {
+    background:#d3e5e6; 
+    height:38px;
+  width: 460px;
+}
+
+.progress-bar {
+  background: #bddcde;
+    height:100%;
+    width:0%;
+}
+
+
+.adobe, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, .ui, .ux, .rwd, .mobile, .rapidproto {
+    -webkit-transition: width 4.50s ease !important;
+    -moz-transition: width 4.50s ease !important;
+    -o-transition: width 4.50s ease !important;
+    transition: width 4.50s ease !important;
+ }
 
 
 /******************************************/
