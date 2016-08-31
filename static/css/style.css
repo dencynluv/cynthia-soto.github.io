@@ -50,10 +50,9 @@ hr {
     border: none;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
     padding: 30px 40px;
     color: #FFFFFF;
-    /*letter-spacing: 1px;*/
 }
 
 .navbar-default .navbar-brand:hover {
@@ -63,7 +62,6 @@ hr {
 .navbar-default .nav>li>a {
     padding: 30px 40px;
     color: #FFFFFF;
-    /*font-weight: 500; waiting till end to decide if i want this to be bold or not.*/
     font-size: 16px;
     letter-spacing: 1px;
 }
